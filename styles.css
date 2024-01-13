@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    justify-content: center; /* centers items horizontally */
+    align-content: center; /* centers items vertically */
+    height: 100vh; /* sets body height to be full viewport height */
+    margin: 0; /* resets default margin */
+    background-color: #333;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#message {
+    font-size: 48px;
+    font-family: Monaco, serif;
+    color: dodgerblue;
+    font-weight: bold;
+}
